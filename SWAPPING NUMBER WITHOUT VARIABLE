@@ -1,0 +1,19 @@
+#include <bits/stdc++.h>
+using namespace std;
+ 
+int main()
+{
+    int x = 10, y = 5;
+ 
+    // Code to swap 'x' and 'y'
+    x = x + y; // x now becomes 15
+    y = x - y; // y becomes 10
+    x = x - y; // x becomes 5
+    cout << "After Swapping: x =" << x << ", y=" << y;
+}
+
+OUTPUT:
+After Swapping: x =5, y=10
+--------------------------------
+Process exited after 0.0751 seconds with return value 0
+Press any key to continue . . .
